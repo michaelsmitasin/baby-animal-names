@@ -37,7 +37,7 @@ esac
 done
 
 GETBABYANIMAL(){
-  echo "To: $MAILTO"
+	echo "To: $MAILTO"
 	# take the first baby animal off the stack
 	THISBABYANIMAL=$(cat $BABYANIMALS | head -1)
 	echo "Subject: $THISBABYANIMAL"
